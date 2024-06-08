@@ -255,16 +255,16 @@ func panicfloat() {
 	panic(floatError)
 }
 
-var memoryError = error(errorString("invalid memory address or nil pointer dereference"))
+var memoryError = error(errorString("invalid memory address or nil pointer dereference 🥺 🥺"))
 
 func panicmem() {
-	panicCheck2("invalid memory address or nil pointer dereference")
+	panicCheck2("invalid memory address or nil pointer dereference 🥺 🥺")
 	panic(memoryError)
 }
 
 func panicmemAddr(addr uintptr) {
-	panicCheck2("invalid memory address or nil pointer dereference")
-	panic(errorAddressString{msg: "invalid memory address or nil pointer dereference", addr: addr})
+	panicCheck2("invalid memory address or nil pointer dereference 🥺 🥺")
+	panic(errorAddressString{msg: "invalid memory address or nil pointer dereference 🥺 🥺", addr: addr})
 }
 
 // Create a new deferred function fn, which has no arguments and results.
